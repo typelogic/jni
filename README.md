@@ -31,3 +31,4 @@ Replay link: https://asciinema.org/a/HTPWvr0WLyEL6iz3ahGUG1A63
 
 References:
 - https://github.com/java-native-access/jna/issues/387
+- https://github.com/typelogic/jni
