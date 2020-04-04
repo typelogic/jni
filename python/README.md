@@ -15,3 +15,6 @@ checkpoint places to verify the memory is clean-up correctly.
 
 The use of `numpy` in python has been suggested to ease the operation. 
 But it is important to be able handle first purely in python core library.
+
+# check
+`objdump --dwarf=info libexample.dll`
