@@ -1,8 +1,10 @@
 from ctypes import *
 
 lib = CDLL('./libfunc.dll')
+
 lib.getarray.argtypes = [POINTER(c_ubyte), c_int32]
 lib.getarray.restype = POINTER(c_ubyte)
+
 lib.free_mem.argtypes = [POINTER(c_ubyte)]
 lib.free_mem.restype = None
 
