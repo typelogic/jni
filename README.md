@@ -29,6 +29,17 @@ Result:
 
 Replay link: https://asciinema.org/a/HTPWvr0WLyEL6iz3ahGUG1A63
 
+### Java in Cygwin
+
+Have to copy the jars and refer to it in  a relative way:
+
+```
+mkdir lib
+cp ~/cooljars/bytes-1.3.0.jar lib
+javac -cp lib/bytes-1.3.0.jar\;lib/others.jar dx/test/App.java
+java -cp lib/bytes-1.3.0.jar\;lib/others.jar\;. dx.test.App
+```
+
 References:
 - https://github.com/java-native-access/jna/issues/387
 - https://github.com/typelogic/jni
